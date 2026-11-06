@@ -2,7 +2,7 @@
 
 An interactive Microsoft Excel dashboard that shows which customer characteristics influence bicycle purchases. Built with pivot tables, charts and slicers.
 
-![Bike Sales Dashboard](images/bicycle-dashboard.png)
+![Bike Sales Dashboard](Screenshot%20Bicycle%20sales%20Dashboard.png)
 
 ## Project Objective
 
