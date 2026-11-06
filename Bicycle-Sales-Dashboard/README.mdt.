@@ -72,21 +72,6 @@ Microsoft Excel: data cleaning, pivot tables, pivot charts, slicers
 - **Partnerships:** Work with universities on student bicycle programmes
 - **Family packages:** Offer bundles for married customers
 
-## Files in This Folder
-
-| File | Description |
-|------|-------------|
-| `Excel bicycle sales Dashboard project 1.xlsx` | The full Excel workbook (data, pivot tables, dashboard) |
-| `images/bicycle-dashboard.png` | Dashboard screenshot |
-| `README.md` | Project documentation |
-
-## How to Use the Dashboard
-
-1. Download the Excel file from this folder.
-2. Open the **Dashboard** sheet.
-3. Click the slicers (Marital Status, Region, Education) to filter all charts at once.
-4. Click the clear-filter icon on a slicer to reset it.
-
 ## Author
 
 **Demilade Jeffricks** ("Dehmi the Analyst")
