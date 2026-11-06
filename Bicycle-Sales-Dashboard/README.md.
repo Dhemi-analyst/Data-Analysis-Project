@@ -1,1 +1,94 @@
+# Bicycle Sales Analysis: Interactive Customer Insights Dashboard
+
+An interactive Microsoft Excel dashboard that shows which customer characteristics influence bicycle purchases. Built with pivot tables, charts and slicers.
+
+![Bike Sales Dashboard](images/bicycle-dashboard.png)
+
+## Project Objective
+
+Find the demographic factors that affect whether a customer buys a bicycle, so a business can target its marketing and stock more effectively.
+
+**Primary KPIs**
+- Gender vs. purchase
+- Average income vs. purchase
+- Age bracket vs. purchase
+- Commute distance vs. purchase
+
+**Secondary KPIs (used as slicers):** Marital Status, Region, Education
+
+## Dataset
+
+- Customer demographics and bicycle purchase data (`bike_buyers` sheet)
+- Format: Excel (.xlsx)
+- Dataset link: [add your dataset link here]
+
+## Analysis Questions
+
+1. Which gender purchases more bicycles?
+2. How does average income relate to purchase decisions?
+3. Which age bracket has the highest purchase rate?
+4. How does commute distance influence bicycle purchases?
+5. Do marital status and education level affect purchase patterns?
+6. Which region has the highest sales volume?
+
+## Process
+
+### 1. Data Cleaning and Preparation
+- Removed duplicate customer entries
+- Checked and fixed spelling errors
+- Created age brackets: Adolescent (under 31), Middle Age (31 to 54), Old (over 54)
+- Ordered commute distance: 0-1 miles, 1-2 miles, 2-5 miles, 5-10 miles, more than 10 miles
+
+### 2. Pivot Tables and Analysis
+- Purchase rate by gender and average income
+- Purchase frequency by commute distance
+- Age bracket against bicycle purchase
+
+### 3. Interactive Dashboard
+- Created a new sheet and turned off gridlines for a clean layout
+- Bar chart: average income per purchase, by gender
+- Line chart: purchases by age bracket
+- Line chart: purchases by commute distance
+- Slicers: filter everything by marital status, region and education
+
+## Tools Used
+
+Microsoft Excel: data cleaning, pivot tables, pivot charts, slicers
+
+## Data Insights
+
+1. **Gender and income:** Average income of buyers was higher than non-buyers for both genders (Female: 55,774 vs 53,440; Male: 60,124 vs 56,208).
+2. **Age:** The Middle Age group (31 to 54) has the highest number of customers and purchases.
+3. **Commute distance:** Customers with a 0-1 mile commute make the most purchases. Purchases drop for longer commutes.
+4. **Region:** North America has the highest purchase volume, followed by the Pacific region.
+5. **Filters:** Every pattern can be checked across region, education level and marital status using the slicers.
+
+## Recommendations
+
+- **Target marketing:** Focus on the highest-performing age bracket and gender segments
+- **Product development:** Expand the premium range for higher-income customers
+- **Regional strategy:** Increase stock and marketing in North America and the Pacific region
+- **Commuter solutions:** Run campaigns for the commute distances that buy most
+- **Partnerships:** Work with universities on student bicycle programmes
+- **Family packages:** Offer bundles for married customers
+
+## Files in This Folder
+
+| File | Description |
+|------|-------------|
+| `Excel bicycle sales Dashboard project 1.xlsx` | The full Excel workbook (data, pivot tables, dashboard) |
+| `images/bicycle-dashboard.png` | Dashboard screenshot |
+| `README.md` | Project documentation |
+
+## How to Use the Dashboard
+
+1. Download the Excel file from this folder.
+2. Open the **Dashboard** sheet.
+3. Click the slicers (Marital Status, Region, Education) to filter all charts at once.
+4. Click the clear-filter icon on a slicer to reset it.
+
+## Author
+
+**Demilade Jeffricks** ("Dehmi the Analyst")
+GitHub: [Dhemi-analyst](https://github.com/Dhemi-analyst)
 
